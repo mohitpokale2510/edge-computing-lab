@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Weather Dashboard</title>
+<style>
+body {
+    font-family: Arial;
+    text-align: center;
+    background: #f4f4f4;
+    padding: 40px;
+}
+
+.card {
+    background: white;
+    width: 300px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.value {
+    font-size: 2em;
+    font-weight: bold;
+}
+</style>
+</head>
+
+<body>
+<div class="card">
+    <h2>{{ place }}</h2>
+    <p class="value">{{ temp }}°C</p>
+    <p>Humidity: {{ hum }}%</p>
+</div>
+</body>
+</html>
